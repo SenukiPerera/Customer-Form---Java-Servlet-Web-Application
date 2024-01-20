@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Customer Servlet Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Customer Form</h1>
+        <form action="customerservlet" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Customer Name</td>
+                        <td><input type="text" name="name" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="email" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Facilities</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="facility" value="Pool">Pool</td>
+                        <td><input type="checkbox" name="facility" value="Gym">Gym</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="facility" value="Playground">Playground</td>
+                        <td><input type="checkbox" name="facility" value="Wifi">Wifi</td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" name="facility">Submit</button></td>
+                        <td><button type="reset" name="facility">Cancel</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
